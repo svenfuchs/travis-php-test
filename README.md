@@ -1,2 +1,2 @@
-travis-php-test
+travis-test
 ===============
