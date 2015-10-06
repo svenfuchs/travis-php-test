@@ -1,0 +1,11 @@
+sudo: false
+script: false
+notifications:
+  email:
+    recipients:
+      - me@svenfuchs.com
+    on_success: always
+    on_failure: always
+    
+  hipchat:
+    secure: BkLWSF+M2I2VCmRWdMA70shdxPG+J+U0+XE17mcu1lUsvGtCcJwb05hZhf5DL88bAubK/yKSpY4tghGcHq3q2278XiAC7TQH2wmDvkOut2iL86H0EiKAhmCMFBlY0qjIC53Y7LF0yKamXwFmyfds6aewN+33hmYcE7fvJezoGHM=
