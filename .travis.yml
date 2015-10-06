@@ -25,4 +25,4 @@ notifications:
       - user_key
   sqwiggle: api_token@room      
   slack: account:token
-  webhoooks: http://requestb.in/1e9wkg51
+  webhoooks: http://requestb.in/1blz8071
