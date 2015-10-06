@@ -7,6 +7,22 @@ notifications:
       - me@svenfuchs.com
     on_success: always
     on_failure: always
-    
+  irc:
+    channels:
+      - "chat.freenode.net#my-channel"
+      - "chat.freenode.net#some-other-channel"
+    template:
+      - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message}"
+      - "Change view : %{compare_url}"
+      - "Build details : %{build_url}"
+  campfire: travisci-test:api_token@1
+  flowdock: travisci-test:api)token@1
   hipchat:
     secure: BkLWSF+M2I2VCmRWdMA70shdxPG+J+U0+XE17mcu1lUsvGtCcJwb05hZhf5DL88bAubK/yKSpY4tghGcHq3q2278XiAC7TQH2wmDvkOut2iL86H0EiKAhmCMFBlY0qjIC53Y7LF0yKamXwFmyfds6aewN+33hmYcE7fvJezoGHM=
+  pushover:
+    api_key: api_token
+    users:
+      - user_key
+  sqwiggle: api_token@room      
+  slack: account:token
+  webhoooks: http://requestb.in/1e9wkg51
