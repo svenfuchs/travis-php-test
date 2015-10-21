@@ -3,7 +3,7 @@ sudo: true
 services:
   - docker
 
-script: env | grep DEBIAN_FRONTEND
+script: which bundle
 
 # notifications:
 #   email:
