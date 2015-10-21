@@ -1,7 +1,7 @@
-sudo: false
-# sudo: true
-# services:
-#   - docker
+# sudo: false
+sudo: true
+services:
+  - docker
 
 script: env
 
