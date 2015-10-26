@@ -5,12 +5,11 @@ services:
 
 script: which bundle
 
-# notifications:
-#   email:
-#     recipients:
-#       - me@svenfuchs.com
-#     on_success: always
-#     on_failure: always
+notifications:
+ email:
+   recipients:
+     - me@svenfuchs.com
+   on_success: always
 #   irc:
 #     channels:
 #       - "chat.freenode.net#my-channel"
